@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nethereum.Web3" Version="4.1.1" />
+    <PackageReference Include="RestSharp" Version="106.13.0" />
+    <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HDWallet\src\HDWallet.Core\HDWallet.Core.csproj" />
+    <ProjectReference Include="..\HDWallet\src\HDWallet.Secp256k1\HDWallet.Secp256k1.csproj" />
+    <ProjectReference Include="..\HDWallet\src\HDWallet.Tron\HDWallet.Tron.csproj" />
+    <ProjectReference Include="..\HDWallet\test\HDWallet.Core.Tests\HDWallet.Core.Tests.csproj" />
+    <ProjectReference Include="..\HDWallet\test\HDWallet.Secp256k1.Tests\HDWallet.Secp256k1.Tests.csproj" />
+    <ProjectReference Include="..\HDWallet\test\HDWallet.Tron.Tests\HDWallet.Tron.Tests.csproj" />
+  </ItemGroup>
+
+</Project>

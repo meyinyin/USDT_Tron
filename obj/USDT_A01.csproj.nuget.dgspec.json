@@ -1,0 +1,673 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\C#\\USDT_A01\\USDT_A01.csproj": {}
+  },
+  "projects": {
+    "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj": {
+      "version": "0.6.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj",
+        "projectName": "HDWallet.Core",
+        "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj",
+        "packagesPath": "C:\\Users\\34742\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\HDWallet\\src\\HDWallet.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34742\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Blake2Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Extensions.Data.xxHash.core20": {
+              "target": "Package",
+              "version": "[1.0.2.1, )"
+            },
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[5.0.27, )"
+            },
+            "NBitcoin.Secp256k1": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\HDWallet.Secp256k1.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\HDWallet.Secp256k1.csproj",
+        "projectName": "HDWallet.Secp256k1",
+        "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\HDWallet.Secp256k1.csproj",
+        "packagesPath": "C:\\Users\\34742\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34742\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj"
+              },
+              "F:\\C#\\HDWallet\\src\\HDWallet.Secp256\\HDWallet.Secp256.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256\\HDWallet.Secp256.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[5.0.27, )"
+            },
+            "NBitcoin.Secp256k1": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\HDWallet\\src\\HDWallet.Secp256\\HDWallet.Secp256.csproj": {
+      "version": "0.2.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256\\HDWallet.Secp256.csproj",
+        "projectName": "HDWallet.Secp256",
+        "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256\\HDWallet.Secp256.csproj",
+        "packagesPath": "C:\\Users\\34742\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34742\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\HDWallet\\src\\HDWallet.Tron\\HDWallet.Tron.csproj": {
+      "version": "0.3.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\HDWallet\\src\\HDWallet.Tron\\HDWallet.Tron.csproj",
+        "projectName": "HDWallet.Tron",
+        "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Tron\\HDWallet.Tron.csproj",
+        "packagesPath": "C:\\Users\\34742\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\HDWallet\\src\\HDWallet.Tron\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34742\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\HDWallet.Secp256k1.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\HDWallet.Secp256k1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "NBitcoin.Secp256k1": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\HDWallet\\test\\HDWallet.Core.Tests\\HDWallet.Core.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\HDWallet\\test\\HDWallet.Core.Tests\\HDWallet.Core.Tests.csproj",
+        "projectName": "HDWallet.Core.Tests",
+        "projectPath": "F:\\C#\\HDWallet\\test\\HDWallet.Core.Tests\\HDWallet.Core.Tests.csproj",
+        "packagesPath": "C:\\Users\\34742\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\HDWallet\\test\\HDWallet.Core.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34742\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[5.0.27, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\HDWallet\\test\\HDWallet.Secp256k1.Tests\\HDWallet.Secp256k1.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\HDWallet\\test\\HDWallet.Secp256k1.Tests\\HDWallet.Secp256k1.Tests.csproj",
+        "projectName": "HDWallet.Secp256k1.Tests",
+        "projectPath": "F:\\C#\\HDWallet\\test\\HDWallet.Secp256k1.Tests\\HDWallet.Secp256k1.Tests.csproj",
+        "packagesPath": "C:\\Users\\34742\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\HDWallet\\test\\HDWallet.Secp256k1.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34742\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\HDWallet.Secp256k1.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\HDWallet.Secp256k1.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[5.0.27, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\HDWallet\\test\\HDWallet.Tron.Tests\\HDWallet.Tron.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\HDWallet\\test\\HDWallet.Tron.Tests\\HDWallet.Tron.Tests.csproj",
+        "projectName": "HDWallet.Tron.Tests",
+        "projectPath": "F:\\C#\\HDWallet\\test\\HDWallet.Tron.Tests\\HDWallet.Tron.Tests.csproj",
+        "packagesPath": "C:\\Users\\34742\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\HDWallet\\test\\HDWallet.Tron.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34742\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\HDWallet\\src\\HDWallet.Tron\\HDWallet.Tron.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Tron\\HDWallet.Tron.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[5.0.27, )"
+            },
+            "NBitcoin.Secp256k1": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\C#\\USDT_A01\\USDT_A01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\C#\\USDT_A01\\USDT_A01.csproj",
+        "projectName": "USDT_A01",
+        "projectPath": "F:\\C#\\USDT_A01\\USDT_A01.csproj",
+        "packagesPath": "C:\\Users\\34742\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\USDT_A01\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\34742\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cloudsmith.io/orchardcore/preview/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Core\\HDWallet.Core.csproj"
+              },
+              "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\HDWallet.Secp256k1.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Secp256k1\\HDWallet.Secp256k1.csproj"
+              },
+              "F:\\C#\\HDWallet\\src\\HDWallet.Tron\\HDWallet.Tron.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\src\\HDWallet.Tron\\HDWallet.Tron.csproj"
+              },
+              "F:\\C#\\HDWallet\\test\\HDWallet.Core.Tests\\HDWallet.Core.Tests.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\test\\HDWallet.Core.Tests\\HDWallet.Core.Tests.csproj"
+              },
+              "F:\\C#\\HDWallet\\test\\HDWallet.Secp256k1.Tests\\HDWallet.Secp256k1.Tests.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\test\\HDWallet.Secp256k1.Tests\\HDWallet.Secp256k1.Tests.csproj"
+              },
+              "F:\\C#\\HDWallet\\test\\HDWallet.Tron.Tests\\HDWallet.Tron.Tests.csproj": {
+                "projectPath": "F:\\C#\\HDWallet\\test\\HDWallet.Tron.Tests\\HDWallet.Tron.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.13.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.23, 3.1.23]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
